@@ -941,4 +941,30 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+
+/*# added carousal slider bg */
+
+.carousel-item {
+    position: relative;
+    color: white; /* Change text color to ensure visibility */
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Add a dark overlay */
+    z-index: 1;
+}
+
+.detail-box {
+    position: relative; /* Make sure text is above the overlay */
+    z-index: 2; /* Bring the text above the overlay */
+}
+
+
 /*# sourceMappingURL=style.css.map */
