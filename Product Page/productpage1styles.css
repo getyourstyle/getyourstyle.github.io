@@ -142,25 +142,27 @@ hr {
 }
 
 @media screen and (max-width: 576px) {
-  .product-container{
+  .product-container {
     flex-direction: column;
   }
-  .small-Card img{
+
+  .small-Card img {
     width: 80px;
   }
-  .product-info{
-    width: 100%;
-  }
-  echo "# product-details-page-html-css-js" >> README.md
-  .product-info p{
+
+  .product-info {
     width: 100%;
   }
 
-  .delivery{
+  .product-info p {
     width: 100%;
   }
 
-  hr{
+  .delivery {
+    width: 100%;
+  }
+
+  hr {
     width: 100%;
   }
 }
